@@ -219,7 +219,7 @@ ul, li {
     text-align: center;
   }
   .projects {
-    height: 90rem;
+    height: 110rem;
   }
   .projects h2, .projects p {
     text-align: center;
@@ -284,8 +284,8 @@ ul, li {
     color: #4748EE;
   }
   .contact-box {
-    height: 70rem;
-    width: 30rem;
+    height: 80rem;
+    width: 40rem;
     background-color: #2f3542;
     border-radius: 30px;
     display: -webkit-box;
