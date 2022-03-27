@@ -164,7 +164,7 @@ ul, li {
   }
   .info-boxes .info-box {
     padding: 0.5rem 1rem;
-    width: 30rem;
+    width: 35rem;
     height: 17rem;
     background-color: #424056;
     border-radius: 15px;
@@ -286,7 +286,7 @@ ul, li {
   .contact-box {
     height: 70rem;
     width: 30rem;
-    background-color: #F4F6FC;
+    background-color: #2f3542;
     border-radius: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -834,7 +834,7 @@ ul, li {
     position: relative;
     height: 60rem;
     width: 70%;
-    background-color: #F4F6FC;
+    background-color: #2f3542;
     border-radius: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
