@@ -281,10 +281,10 @@ ul, li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    color: #4748EE;
+    color: #8597EC;
   }
   .contact-box {
-    height: 80rem;
+    height: 70rem;
     width: 40rem;
     background-color: #2f3542;
     border-radius: 30px;
@@ -331,7 +331,7 @@ ul, li {
     margin-top: 2rem;
     height: 4rem;
     border-radius: 30px;
-    background-color: #4748EE;
+    background-color: #8597EC;
     color: #f2f2f2;
     cursor: pointer;
     -webkit-transition: 300ms ease-in-out;
@@ -827,7 +827,7 @@ ul, li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    color: #4748EE;
+    color: #8597EC;
   }
   .contact-box {
     overflow-x: hidden;
@@ -882,12 +882,13 @@ ul, li {
     color: #03001E;
   }
   .contact-box form input[type=submit] {
+    z-index: 1;
     width: 50%;
     border: none;
     margin-top: 2rem;
     height: 4rem;
     border-radius: 30px;
-    background-color: #4748EE;
+    background-color: #8597EC;
     color: #f2f2f2;
     cursor: pointer;
     -webkit-transition: 300ms ease-in-out;
@@ -910,7 +911,7 @@ ul, li {
     bottom: 5%;
   }
   .contact-links a {
-    z-index: -1;
+    z-index: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

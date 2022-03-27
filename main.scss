@@ -223,7 +223,7 @@ ul,li{
     align-items: center;
     color: $purple-blue;
     &-box{
-        height: 80rem;
+        height: 70rem;
         width: 40rem;
         background-color: #2f3542;
         border-radius: $radius-2;
@@ -718,6 +718,7 @@ h2{
                   color: $dark-blue;
               }
               input[type=submit]{
+                  z-index: 1;
                   width: 50%;
                   border: none;
                   margin-top: 2rem;
@@ -742,7 +743,7 @@ h2{
         right: 2%;
         bottom: 5%;
         a{
-            z-index: -1;
+            z-index: 0;
             @include flexCenter(row);
             background-color: $white-smoke;
             border-radius: 57px;
