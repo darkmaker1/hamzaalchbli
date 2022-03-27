@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./icons/logo.png">
+    <title>Hamza Alchbli</title>
+</head>
+<body>
+    <nav id="nav">
+        <div id="menu-btn" class="menu-btn">
+            <div class="menu-btn-burger"></div>
+          </div>
+          <li id="logoName">
+            <a href="#home"><img id="logo" src="./icons/logo.png"></a>
+            <a id="nav-name" href="#home"><p>Hamza Alchbli</p></a>
+          </li>
+        <ul>
+            <li><a href="#home"><img src="./icons/home.png"></a>
+                <a href="#home">Home</a></li>
+            <li><a href="#skills"><img src="./icons/skills.png"></a>
+                <a href="#skills">skills</a></li>
+            <li><a href="#projects"><img src="./icons/projects.png"></a>
+                <a href="#projects">Projects</a></li>
+            <li><a href="#about"><img src="./icons/about.png"></a>
+                <a href="#about">About me</a></li>
+        </ul>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <p>Hello, my name is</p>
+            <p id="name">Hamza Alchbli</p>
+            <p>Student in ROC van Amsterdam<br>
+               Netherland, Utrecht</p>
+               <a href="#projects">Check my work</a>
+        </div>
+        <img src="./images/laptop.png">
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 id="my-skills">My skills</h2>
+        <img id="skills-img" src="./images/skills.png">
+        <div class="info-boxes skills-boxes">
+        <div class="info-box magic-box" >
+            <div class="info-box-title">
+                <img src="./icons/developer.png">
+                <h3>Developer skills</h3>
+            </div>
+            <p>A good knowledge with HTML/CSS(scss) and JavaScript., I always practice in my freetime to get better.</p>
+        </div>
+
+        <div class="info-box magic-box">
+            <div class="info-box-title">
+                <img src="./icons/ui.png">
+                <h3>UI Design</h3>
+            </div>
+            <p>A love for design and a good eye for creativity. I use Figma to design the project before I build it.</p>
+        </div>
+
+        <div class="info-box magic-box">
+            <div class="info-box-title">
+                <img src="./icons/art.png">
+                <h3>Art skills</h3>
+            </div>
+            <p>A love of art and digital drawing, 4+ months experience with Procreate.</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>My projects</h2>
+        <p>(Including this website)</p>
+
+        <div class="projects-project project-box">
+         <div class="project-box-content">
+            <h3>Fivver</h3>
+            <p>this was my first fivver request, I had to build news and jobs page using html/css</p>
+            <a href="https://barti.nl/news" target="_blank">Check Online</a>
+        </div>
+            <img class="magic-box" src="./images/project-2.png">
+        </div>
+
+        <div class="projects-project project-box-2">
+            <div class="project-box-content-2">
+            <h3>3D card</h3>
+            <p>I made this for fun and to practice with html/css and JavaScript</p>
+            <a href="https://codepen.io/h0xd/pen/zYPMRXM" target="_blank">Check Online</a>
+        </div>
+            <img class="magic-box" src="./images/project-1.png">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 id="about-me">About me</h2>
+        <img id="about-img" src="./images/about.png">
+        <img id="about-img-2" src="./icons/about-apps.png">
+        <div class="info-boxes about-boxes">
+        <div class="info-box magic-box">
+            <div class="info-box-title">
+                <img src="./icons/sport.png">
+                <h3>Sport</h3>
+            </div>
+            <p>Always moving, I love working out with friends in a Calisthenics park.</p>
+        </div>
+
+        <div class="info-box magic-box">
+            <div class="info-box-title">
+                <img src="./icons/study.png">
+                <h3>Study</h3>
+            </div>
+            <p>I enjoy coding and designing in my freetime,I spend 4 to 6+ hours a day studying.</p>
+        </div>
+
+        <div class="info-box magic-box">
+            <div class="info-box-title">
+                <img src="./icons/gaming.png">
+                <h3>Gaming</h3>
+            </div>
+            <p>I'm a Gamer,I love offline, roguelike, RPG games. Sometimes I play online games too.</p>
+        </div>
+        <div class="info-box magic-box">
+            <div class="info-box-title">
+                <img src="./icons/drawin.png">
+                <h3>Drawing</h3>
+            </div>
+            <p>Digital drawing,I draw landscapes with Procreate while listening to music.</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact-box magic-box">
+            <h2>Let's talk</h2>
+            <p>Send me an Email and I will reply as fast as possible.</p>
+            <img id="contact-img" src="./images/contact.png">
+            <form target="_blank" action="https://formsubmit.co/hamzaalshibli0@gmail.com" method="POST">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email" required>Your Email</label>
+                <input type="email" name="email" id="email">
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" placeholder="Type here..."></textarea>
+                <input type="submit" value="Send">
+            </form>
+            <div class="contact-links">
+                <a target="_blank" href="https://www.linkedin.com/in/hamza-alchbli-1b77a3216?challengeId=AQEuf-JpL3qr-QAAAX_Ipu4ALnVzSBx_3quuqa_tNHYRHjb5tyfiWg_gIKfUQKitda0UF-i6rWBTt8E9rWkdrjPnipIuBpEu3Q&submissionId=e8931516-7513-e016-fdcf-c640005bca3e"><img src="./icons/linkedin.png"></a>
+                <a target="_blank" href="https://instagram.com/h.0xd_?r=nametag"><img src="./icons/instagram.png"></a>
+                <a target="_blank" href="https://github.com/darkmaker1"><img src="./icons/github.png"></a>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
