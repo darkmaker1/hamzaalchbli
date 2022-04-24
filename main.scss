@@ -221,12 +221,12 @@ ul,li{
     }
     .fade-in{
         transition: $transition-speed ease-in-out;
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
     }
     .fade-out{
         transition: $transition-speed ease-in-out;
-        transform: translateX(100%);
+        transform: translateY(50%);
         opacity: 0;
     }
     // info boxes end
