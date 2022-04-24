@@ -26,7 +26,7 @@ ul,li{
  all: unset;
 }
 @media (min-width: 0px) and (max-width:900px) {
-    #menu-btn,#logo,#logoName,#skills-img,#about-img,#about-img-2,#contact-img{
+    #logo,#logoName,#skills-img,#about-img,#about-img-2,#contact-img{
         display: none;
     }
  h2{
@@ -39,29 +39,96 @@ ul,li{
     font-size: $font-size-mobile;
  }
  // Nav style start
+ .menu-btn {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    position: fixed;
+    top: 0;
+    right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn-burger {
+    width: 50px;
+    height: 6px;
+    background: $main-white;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn-burger::before,
+  .menu-btn-burger::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background: $main-white;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn-burger::before {
+    transform: translateY(-16px);
+  }
+  .menu-btn-burger::after {
+    transform: translateY(16px);
+  }
+  /* ANIMATION */
+  .menu-btn.open .menu-btn-burger {
+    // transform: translateX(-50px);
+    background: transparent;
+  }
+  .menu-btn.open .menu-btn-burger::before {
+    transform: rotate(45deg);
+  }
+  .menu-btn.open .menu-btn-burger::after {
+    transform: rotate(-45deg);
+  }
  nav{
+     opacity: 70%;
+    transition: $transition-speed ease-in-out;
     z-index: 50;
     background-color: $gunpoweder;
     position: fixed;
     bottom: 0;
+    left: 0;
+    top: -100%;
     width: 100%;
-    height: 100px;
+    height: 100%;
     -webkit-animation: nav-load $transition-speed ease-in-out;
             animation: nav-load $transition-speed ease-in-out;
     @include flexCenter(row);
     ul{
-        @include flexCenter(row);
+        @include flexCenter(column);
         gap: 40px;
+        
         li{
-            a:not(:first-of-type){
+            a:first-of-type{
                 display: none;
             }
+            a:not(:first-of-type){
+                margin-left: 2rem
+            }
+            width: 100%;
+            display: flex;
+            align-items: center;
           }
     }
  }
+ nav.nav-open{
+     top: 0;
+     transition: $transition-speed ease-in-out;
+ }
  @-webkit-keyframes nav-load {
   0%{
-    transform: translateY(100%);
+    transform: translateY(-100%);
   }
   100%{
     transform: translateY(0);
@@ -69,7 +136,7 @@ ul,li{
  }
  @keyframes nav-load {
   0%{
-    transform: translateY(100%);
+    transform: translateY(-100%);
   }
   100%{
     transform: translateY(0);
