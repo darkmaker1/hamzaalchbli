@@ -1,5 +1,5 @@
 // reveal point from bottom and top of the window
-var revealerpoint = 150;
+var revealerpoint = 100;
 window.addEventListener('scroll', reveal);
 reveal();
 
@@ -14,7 +14,7 @@ function reveal() {
             revealers[i].classList.add('fade-in')
             revealers[i].classList.remove('fade-out');
         } else {
-            revealers[i].classList.remove('fade-in');
+            revealers[i].classList.add('fade-in');
             revealers[i].classList.add('fade-out');
 
         };
