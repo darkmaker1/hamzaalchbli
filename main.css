@@ -224,7 +224,7 @@ ul, li {
     z-index: -1;
   }
   .landing .title {
-    padding: 2rem;
+    padding: 2.5rem;
     position: relative;
     top: 10%;
     left: 50%;
@@ -233,10 +233,10 @@ ul, li {
     border: 6px solid #320E68;
     color: #320E68;
     border-radius: 96px 24px 96px 24px;
-    width: 43.5rem;
+    width: 33.5rem;
   }
   .landing .title h2 {
-    font-size: 3.5;
+    font-size: 3rem;
   }
   .page-2 {
     position: relative;
