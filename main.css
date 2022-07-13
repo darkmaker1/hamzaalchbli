@@ -237,6 +237,10 @@ ul, li {
   }
   .landing .title h2 {
     font-size: 3rem;
+    background-color: #FCF93A;
+    border-radius: 15px;
+    display: inline-block;
+    padding: .5rem;
   }
   .page-2 {
     position: relative;

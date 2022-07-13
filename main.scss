@@ -193,6 +193,10 @@ ul,li{
                 width: 33.5rem;
                 h2{
                     font-size: 3rem;
+                    background-color: $yellow;
+                    border-radius: 15px;
+                    display: inline-block;
+                    padding: .5rem;
                 }
             }
         }
