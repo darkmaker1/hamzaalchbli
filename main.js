@@ -1,5 +1,5 @@
 // reveal point from bottom and top of the window
-var revealerpoint = 100;
+var revealerpoint = 150;
 window.addEventListener('scroll', reveal);
 reveal();
 

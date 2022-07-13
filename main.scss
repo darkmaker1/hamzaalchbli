@@ -15,6 +15,7 @@ body{
     overflow-x: hidden;
     // width: 100vw;
     font-family: 'Nunito', sans-serif;
+    overflow: hidden;
 }
 a{
  all: unset;
@@ -184,14 +185,14 @@ ul,li{
                 padding: 2rem;
                 position: relative;
                 top: 10%;
-                left: 36%;
+                left: 50%;
                 transform: translate(-50%);
                 border: 6px solid $purple;
                 color: $purple;
                 border-radius: 96px 24px 96px 24px;
                 width: 43.5rem;
                 h2{
-                    font-size: 5rem;
+                    font-size: 3.5;
                 }
             }
         }

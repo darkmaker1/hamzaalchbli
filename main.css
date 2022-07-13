@@ -15,6 +15,7 @@ body {
   color: #f2f2f2;
   overflow-x: hidden;
   font-family: 'Nunito', sans-serif;
+  overflow: hidden;
 }
 
 a {
@@ -32,7 +33,7 @@ ul, li {
     display: none;
   }
   h2 {
-    font-size: 6rem;
+    font-size: 4.5rem;
   }
   h3 {
     font-size: 3rem;
@@ -226,7 +227,7 @@ ul, li {
     padding: 2rem;
     position: relative;
     top: 10%;
-    left: 36%;
+    left: 50%;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
     border: 6px solid #320E68;
@@ -235,7 +236,7 @@ ul, li {
     width: 43.5rem;
   }
   .landing .title h2 {
-    font-size: 5rem;
+    font-size: 3.5;
   }
   .page-2 {
     position: relative;
