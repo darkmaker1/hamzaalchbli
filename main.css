@@ -33,7 +33,7 @@ ul, li {
     display: none;
   }
   h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   h3 {
     font-size: 3rem;
@@ -65,7 +65,7 @@ ul, li {
     cursor: pointer;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    opacity: 120%;
+    opacity: 100%;
   }
   .menu-btn-burger {
     width: 50px;
@@ -250,13 +250,13 @@ ul, li {
   }
   .page-2 .background-img {
     height: 100%;
-    width: 120%;
+    width: 100%;
     position: absolute;
     z-index: -1;
   }
   .page-2 h2 {
     color: #320E68;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .page-2 .about-boxes {
     -webkit-box-flex: 1;
@@ -358,7 +358,7 @@ ul, li {
   }
   .page-3 .background-img-locatie {
     height: 100%;
-    width: 120%;
+    width: 100%;
     position: absolute;
     z-index: -1;
   }
@@ -444,7 +444,7 @@ ul, li {
   }
   .page-4 img {
     height: 100%;
-    width: 120%;
+    width: 100%;
     position: absolute;
     z-index: -1;
   }
@@ -495,7 +495,7 @@ ul, li {
   }
   .page-5 .background-jongeren {
     height: 100%;
-    width: 120%;
+    width: 100%;
     position: absolute;
     z-index: -1;
   }
@@ -691,7 +691,7 @@ ul, li {
   }
   .page-2 .background-img {
     height: 100%;
-    width: 120%;
+    width: 100%;
     position: absolute;
     z-index: -1;
   }
@@ -795,7 +795,7 @@ ul, li {
   }
   .page-3 .background-img-locatie {
     height: 100%;
-    width: 120%;
+    width: 100%;
     position: absolute;
     z-index: -1;
   }
@@ -876,7 +876,7 @@ ul, li {
   }
   .page-4 img {
     height: 100%;
-    width: 120%;
+    width: 100%;
     position: absolute;
     z-index: -1;
   }
@@ -921,7 +921,7 @@ ul, li {
   }
   .page-5 .background-jongeren {
     height: 100%;
-    width: 120%;
+    width: 100%;
     position: absolute;
     z-index: -1;
   }

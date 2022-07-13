@@ -58,7 +58,7 @@ ul,li{
             height: 5rem;
             cursor: pointer;
             transition: all .5s ease-in-out;
-            opacity: 120%;
+            opacity: 100%;
           }
           .menu-btn-burger {
             width: 50px;
@@ -205,7 +205,7 @@ ul,li{
         flex-direction: column-reverse;
         .background-img{
             height: 100%;
-            width: 120%;
+            width: 100%;
             position: absolute;
             z-index: -1;
             // -o-object-fit: cover;
@@ -273,7 +273,7 @@ ul,li{
         // height: 100vh;
         .background-img-locatie{
             height: 100%;
-            width: 120%;
+            width: 100%;
             position: absolute;
             z-index: -1;
         }
@@ -331,7 +331,7 @@ ul,li{
         // gap: 2rem;
         img{
             height: 100%;
-            width: 120%;
+            width: 100%;
             position: absolute;
             z-index: -1;
         }
@@ -375,7 +375,7 @@ ul,li{
         position: relative;
         .background-jongeren{
             height: 100%;
-            width: 120%;
+            width: 100%;
             position: absolute;
             z-index: -1;
         }
@@ -507,7 +507,7 @@ p{
     .background-img{
         
         height: 100%;
-        width: 120%;
+        width: 100%;
         position: absolute;
         z-index: -1;
         // -o-object-fit: cover;
@@ -572,7 +572,7 @@ p{
     height: 100vh;
     .background-img-locatie{
         height: 100%;
-        width: 120%;
+        width: 100%;
         position: absolute;
         z-index: -1;
     }
@@ -626,7 +626,7 @@ p{
     position: relative;
     img{
         height: 100%;
-        width: 120%;
+        width: 100%;
         position: absolute;
         z-index: -1;
     }
@@ -671,7 +671,7 @@ p{
     position: relative;
     .background-jongeren{
         height: 100%;
-        width: 120%;
+        width: 100%;
         position: absolute;
         z-index: -1;
     }
