@@ -430,6 +430,13 @@ ul,li{
         }
     }
 }
+@media (min-width: 900px) and (max-width:1200px) {
+    .locatie-info{
+        p{
+            font-size: 2.1rem;
+        }
+    }
+}
 @media (min-width: 900px) {
     .hide-pc{
         display: none;
