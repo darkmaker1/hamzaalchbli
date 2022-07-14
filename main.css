@@ -665,6 +665,20 @@ ul, li {
     font-size: 2rem;
     margin-right: 1rem;
   }
+  .fade-in {
+    -webkit-transition: 600ms ease-in-out;
+    transition: 600ms ease-in-out;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  .fade-out {
+    -webkit-transition: 600ms ease-in-out;
+    transition: 600ms ease-in-out;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    opacity: 0;
+  }
   .landing {
     height: 100vh;
     position: relative;

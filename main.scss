@@ -477,6 +477,19 @@ p{
             margin-right: 1rem;
         }
     }
+    
+        // animation styles start
+        .fade-in{
+            transition: $transition-speed ease-in-out;
+            transform: translateY(0);
+            opacity: 1;
+        }
+        .fade-out{
+            transition: $transition-speed ease-in-out;
+            transform: translateY(50%);
+            opacity: 0;
+        }
+        // animation styles end
     .landing{
         height: 100vh;
         position: relative;
